@@ -512,7 +512,7 @@ footer {
 
 }
 .artwork{
-  width: 100%;
+  max-width: 1200px;
   object-fit: cover;
   aspect-ratio: 4 / 3;
 }
