@@ -372,7 +372,8 @@ padding-top: 8px;
     z-index: 1001;
     transition: all 0.3s;
 }
-.home-btn > img{
+.home-btn>img{
+  position: fixed;
   width: 50px;
   height: 50px;
 }
@@ -512,12 +513,15 @@ footer {
   gap: 20px;
 
 }
-.artwork{
+.artwork {
   max-width: 1200px;
   object-fit: cover;
   aspect-ratio: 4 / 3;
 }
 
+.artwork  img{
+  max-width: 1200px;
+}
 /* ==== МЕДИА ЗАПРОСЫ ==== */
 
 
