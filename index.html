@@ -5,30 +5,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-
+        <button class="mobile-menu-toggle" aria-label="Открыть меню">☰</button>
     </header>
+    <div class="sidebar">
+        <nav class="side-nav">
+            <ul class="nav-list">
+                <li><a href="#start-section" class="nav-link">Старт</a></li>
+                <div class="nav-line"></div>
+                <li><a href="#about-section" class="nav-link">Обо мне</a></li>
+                <div class="nav-line"></div>
+                <li><a href="#skills-section" class="nav-link">Навыки</a></li>
+                <div class="nav-line"></div>
+                <li><a href="#gallery-section" class="nav-link active">Галерея работ</a></li>
+                <div class="nav-line"></div>
+                <li><a href="#contact-section" class="nav-link">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
     <main>
+        <section id="start-section">
+            <div>
+                <div class="hero-content">
+                    <h1 class="name-text" style="font-size: 112px;">Any Frouze</h1>
+                    <p class="description-text" style="display: flex; justify-content: space-around; width: 80%;">
+                        <span>иллюстратор</span><span>дизайнер</span><span>выдумщик</span>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about-section">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1>ОБО МНЕ</h1>
+                    <div>
+                        <p>Меня зовут Any, или можно просто Аня,<br> и я графический дизайнер<br>и цифровой иллюстратор.
+                        </p>
+                        <p>На данный момент я только студент<br>университета, но всегда стремлюсь<br> к созданию нового
+                            и волшебного!</p>
+                        <p>У меня есть любимые хобби - я рисую,<br>читаю, смотрю фильмы, мультфильмы<br>и сериалы, но
+                            больше всего придумывать<br>незамысловатые идеи и записывать<br>в свой блокнот.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="avatar-container">
+                <img src="img/content/avatar.jpg" alt="Kot">
+            </div>
+            </div>
+
+        </section>
 
 
+        <section id="skills-section">
+            <div class="create-container">
+                <h1>Я СОЗДАЮ</h1>
+                <div class="create-grid">
+                    <div class="a-part">
+                        <p>Иллюстрации</p>
+                    </div>
+                    <div class="d-part">
+                        <p>Логотипы</p>
+                    </div>
+                    <div class="e-part">
+                        <p>3D Модели</p>
+                    </div>
+                    <div class="v-part">
+                        <p>Паттерны</p>
+                    </div>
+                    <div class="r-part">
+                        <p>Дизайн сайта</p>
+                    </div>
+                </div>
+            </div>
+            <div class="exp-container">
+                <h1>МОЙ ОПЫТ</h1>
+                <div class="exp-frame">
+                    <div class="years">
+                        <p>2021 - н.в. </p>
+                        <p>2022 - н.в. </p>
+                        <p>2023 - н.в. </p>
+                    </div>
+                    <div class="line-img">
+                        <svg width="19" height="242" viewBox="0 0 19 242" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.54048 9.53906L9.54047 232.622M11.3214 9.45866C11.3214 10.4597 10.5059 11.2712 9.49993 11.2712C8.49398 11.2712 7.6785 10.4597 7.6785 9.45866C7.6785 8.45763 8.49398 7.64613 9.49993 7.64613C10.5059 7.64613 11.3214 8.45763 11.3214 9.45866ZM11.3214 120.466C11.3214 121.467 10.5059 122.279 9.49993 122.279C8.49398 122.279 7.6785 121.467 7.6785 120.466C7.6785 119.465 8.49398 118.654 9.49993 118.654C10.5059 118.654 11.3214 119.465 11.3214 120.466ZM11.3214 232.542C11.3214 233.543 10.5059 234.354 9.49993 234.354C8.49398 234.354 7.6785 233.543 7.6785 232.542C7.6785 231.541 8.49398 230.729 9.49993 230.729C10.5059 230.729 11.3214 231.541 11.3214 232.542ZM18 9.4585C18 14.13 14.1944 17.917 9.5 17.917C4.80558 17.917 1 14.13 1 9.4585C1 4.787 4.80558 1 9.5 1C14.1944 1 18 4.787 18 9.4585ZM18 120.466C18 125.138 14.1944 128.925 9.5 128.925C4.80558 128.925 1 125.138 1 120.466C1 115.795 4.80558 112.008 9.5 112.008C14.1944 112.008 18 115.795 18 120.466ZM18 232.541C18 237.213 14.1944 241 9.5 241C4.80558 241 1 237.213 1 232.541C1 227.87 4.80558 224.083 9.5 224.083C14.1944 224.083 18 227.87 18 232.541Z"
+                                stroke="#39ACFF" stroke-width="3" />
+                        </svg>
+                    </div>
+                    <div class="who-name">
+                        <p>студент СПБГУПТД</p>
+                        <p>цифровой-иллюстратор</p>
+                        <p>начинающий дизайнер</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="gallery-section">
+            <div>
+                <h1>МОИ РАБОТЫ</h1>
+            </div>
+            <div class="filters-frame">
+                <div class="filters-container">
+                    <div class="filter-group">
+                        <h5>Сложность:</h5>
+                        <div class="check-container">
+                            <label><input type="checkbox" class="filter-checkbox" data-type="difficulty"
+                                    data-value="easy" />
+                                Легкий</label>
+                            <label><input type="checkbox" class="filter-checkbox" data-type="difficulty"
+                                    data-value="medium" />
+                                Средний</label>
+                            <label><input type="checkbox" class="filter-checkbox" data-type="difficulty"
+                                    data-value="hard" />
+                                Сложный</label>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <h5>Категория:</h5>
+                        <div class="check-container">
+                            <label><input type="checkbox" class="filter-checkbox" data-type="category"
+                                    data-value="3d" />
+                                3D</label>
+                            <label><input type="checkbox" class="filter-checkbox" data-type="category"
+                                    data-value="art" />
+                                Арт</label>
+                            <label><input type="checkbox" class="filter-checkbox" data-type="category"
+                                    data-value="design" />
+                                Дизайн</label>
+                        </div>
+                    </div>
+                    <button id="reset-filters" class="reset-btn">Сбросить фильтры</button>
+                </div>
+            </div>
+            <div>
+                <div id="gallery" class="gallery"></div>
+            </div>
+        </section>
 
 
     </main>
 
 
-    <footer>
-
+    <footer id="contact-section">
+        <div class="information-container">
+            <div class="footer-logo">
+                <a href="#start-section">
+                    <img src="img/content/logo-site.png" alt="Logo">
+                </a>
+            </div>
+            <div class="footer-info">
+                <div class="contacts-container">
+                    <h5>Контакты</h5>
+                    <p>anyutik.morozik@gmail.com</p>
+                </div>
+                <div class="socials-container">
+                    <h5>Соцсети</h5>
+                    <div>
+                        <a href="https://t.me/liomacht" class="social-icon" aria-label="Telegram">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25ZM25.8959 18.4561C23.4643 19.4675 18.6045 21.5608 11.3164 24.7361C10.133 25.2067 9.51304 25.6671 9.4566 26.1173C9.36122 26.8781 10.314 27.1777 11.6114 27.5857C11.7879 27.6412 11.9707 27.6987 12.1582 27.7596C13.4347 28.1745 15.1517 28.6599 16.0443 28.6792C16.854 28.6967 17.7578 28.3629 18.7555 27.6778C25.5649 23.0813 29.08 20.7579 29.3006 20.7078C29.4563 20.6725 29.6721 20.6281 29.8183 20.758C29.9644 20.8879 29.9501 21.134 29.9346 21.2C29.8402 21.6024 26.1003 25.0794 24.1648 26.8787C23.5615 27.4396 23.1335 27.8375 23.046 27.9284C22.85 28.132 22.6503 28.3245 22.4583 28.5096C21.2724 29.6528 20.3831 30.51 22.5075 31.91C23.5284 32.5827 24.3453 33.139 25.1603 33.6941C26.0504 34.3002 26.9381 34.9047 28.0867 35.6576C28.3793 35.8495 28.6588 36.0487 28.931 36.2428C29.9668 36.9812 30.8974 37.6446 32.0471 37.5388C32.7151 37.4773 33.4051 36.8492 33.7556 34.9757C34.5838 30.5482 36.2117 20.9551 36.588 17.002C36.6209 16.6557 36.5794 16.2124 36.5461 16.0179C36.5129 15.8233 36.4433 15.5461 36.1903 15.3408C35.8908 15.0978 35.4284 15.0465 35.2216 15.0502C34.2813 15.0667 32.8387 15.5684 25.8959 18.4561Z"
+                                    fill="#ffffff" />
+                            </svg>
+                        </a>
+                        <a href="tiktok.com" class="social-icon" aria-label="TikTok">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M25 0C38.8071 0 50 11.1929 50 25C49.9999 38.807 38.807 50 25 50C11.193 49.9999 5.97899e-05 38.807 0 25C0 11.193 11.193 7.21611e-05 25 0ZM26.168 29.9404C26.1679 32.1538 24.4 33.9717 22.2002 33.9717C20.0005 33.9715 18.2325 32.1537 18.2324 29.9404C18.2324 27.7666 19.9617 25.9872 22.083 25.9082V21.2451C17.4082 21.3241 13.6367 25.1579 13.6367 29.9404C13.6368 34.7625 17.4869 38.6357 22.2402 38.6357C26.9933 38.6355 30.8427 34.7228 30.8428 29.9404V20.415C32.5712 21.6798 34.6926 22.4301 36.9316 22.4697V17.8057C33.4748 17.6869 30.7646 14.8414 30.7646 11.3633H26.168V29.9404Z"
+                                    fill="#ffffff" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="credits-container">
+            <p>&#169; 2026, Designed by Any Frouze - Анна Морозова</p>
+        </div>
     </footer>
-
-    <script>
-        
-    </script>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
